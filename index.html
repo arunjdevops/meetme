@@ -104,17 +104,104 @@
       <!-- Navbar End -->
 
       <!-- Hero Area Start -->
-      <div id="hero-area" class="hero-area-bg">
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row">
+       <!-- Hero Area Start -->
+<div id="hero-area" class="hero-area-bg">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
             <div class="col-md-12 col-sm-12 text-center">
-              <div class="contents">
-                <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Hi This is</h5>
-                <h2 class="head-title wow fadeInUp" data-wow-delay="0.4s">Arunkumar J</h2>
-                <p class="script-font wow fadeInUp" data-wow-delay="0.6s">Front-end Linux Administrator | Production & Application Support </p>
-                <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
-          <li>
+                <div class="contents">
+                    <!-- Smaller text -->
+                    <h5 class="script-font wow fadeInUp" data-wow-delay="0.2s">Welcome, I'm</h5>
+
+                    <!-- Name with gradient color -->
+                    <h2 class="head-title gradient-text wow fadeInUp" data-wow-delay="0.4s">Arunkumar J</h2>
+
+                    <!-- Description -->
+                    <p class="script-font wow fadeInUp" data-wow-delay="0.6s">
+                        Front-end Linux Administrator | Production & Application Support
+                    </p>
+
+                    <!-- Social Icons -->
+                    <ul class="social-icon wow fadeInUp" data-wow-delay="0.8s">
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+/* Gradient text style */
+.gradient-text {
+    font-family: 'Poppins', sans-serif; /* modern font */
+    font-weight: 700;
+    font-size: 60px; /* bigger for impact */
+    background: linear-gradient(90deg, #9b00ff, #4b00ff); /* purple gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0.5em 0;
+}
+
+/* Optional: fadeInUp animation if WOW.js not working */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.wow.fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+/* Hero overlay */
+.hero-area-bg {
+    position: relative;
+    background: url('your-background.jpg') center/cover no-repeat;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+/* Social icons styling */
+.social-icon {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon li a {
+    color: #fff;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.social-icon li a:hover {
+    color: #9b00ff;
+}
+</style>
+</li>
+
+
+
+      
   <a class="linkedin" href="https://www.linkedin.com/in/arun-kumar-j-linux-production-support/">
     <i class="icon-social-linkedin"></i>
   </a>
